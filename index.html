@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="uk"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pokemon Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative:300,regular,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head> 
+<body>
+
+    <a href="./index.html">
+        <img class="logo__img-pokemon" src="./img/logo-pokemon.png" alt="">
+    </a>
+
+        <h1 data-aos-delay="550" data-aos="zoom-in-right" class="title__learn-pokemon">Learn more about pokemon</h1>
+        <a data-aos-delay="650" data-aos="zoom-out" href="./about.html">
+            <button type="button" class="btn__learn-pokemon">
+                <span>Learn</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </button>
+
+        </a>
+
+    <h1 data-aos-delay="100" data-aos="fade-down" class="title-main">Find your pokemon!</h1>
+
+    <div class="form-inline search-form js-search-form"> 
+        <div class="form-group"> 
+            <form data-aos-delay="200" data-aos="fade-right" form class="formField">
+                <input class="form-control" required="" type="text" />
+                <span>Placeholder</span>
+            </form>
+        </div> 
+    <button data-aos="zoom-in-up" data-aos-delay="300" class="btn btn-primary">
+        <span class="button-bg">
+            <span class="button-bg-layers">
+            <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+            <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+            <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+        </span>
+        </span>
+        <span class="button-inner">
+        <span class="button-inner-static">Search</span>
+        <span class="button-inner-hover">Search</span>
+        </span>
+    </button>
+
+    <div class="box__main-pokemon">
+        <img class="main-pokemon-1" src="./img/pokemon-main(1).png" alt="">
+        <img class="main-pokemon-2" src="./img/pokemon-main(2).png" alt="">
+        <img class="main-pokemon-3" src="./img/pokemon-main(3).png" alt="">
+    </div>
+
+    <img class="main__pokemon-hidden" src="./img/pokemon-main(4).png" alt="">
+
+    </div> 
+
+    <div class="js-card-container"></div> 
+
+    <script id="pokemon-template" type="text/x-handlebars-template"> 
+        <div class="card"> 
+            <div class="card-img-top"> 
+                <img class="img-pokemon" src="{{sprites.front_default}}" alt="{{name}}"> 
+            </div> 
+            <div class="card-body">
+                <h2 class="card-title"><span class="name-pokemon">Ім'я:</span> {{name}}</h2> 
+                <p class="card-text"><span class="weight-pokemon">Вага:</span> {{weight}}</p> 
+                <p class="card-text"><span class="height-pokemon">Зріст:</span> {{height}}</p> 
+                <p class="card-text"><b><span class="skills-pokemon">Вміння:</span></b></p> 
+                <ul class="list-group"> 
+                    {{#each abilities}}
+                        <li class="list-group-item">{{ability.name}}</li> 
+                    {{/each}}
+                </ul> 
+            </div> 
+        </div> 
+    </script> 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script> 
+
+    
+    <script src="script.js"></script>
+    <script src="./paralax.js"></script>
+
+
+</body> 
+</html>

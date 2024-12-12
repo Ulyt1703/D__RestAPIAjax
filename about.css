@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Carter+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:300,regular,500,600,700);
+
+*{
+
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#ffee00, #e7a918);
+    background-color: rgb(255, 255, 255);
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+}
+.logo__img-pokemon{
+    position: relative;
+    top: 17.5px;
+    left: 0;
+    width: 150px;
+    user-select: none;
+}
+.img__title-pokemon{
+    position: absolute;
+    width: 350px;
+    right: 4%;
+    top: 30%;
+    user-select: none;
+}
+.title__mean-pokemon{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0 0 0;
+    font-family: 'Signika Negative';
+    user-select: none;
+}
+.descr_-mean-pokemon{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Signika Negative';
+}
+.title__company-pokemon{
+    text-align: center;
+    padding: 60px 0 0 0;
+    font-family: 'Signika Negative';
+    user-select: none;
+}
+.descr__company-pokemon{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Signika Negative';
+}
