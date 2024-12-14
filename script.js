@@ -23,13 +23,18 @@ btnMain.addEventListener("click", function () {
             return Response.json()
         })
         .then((value) => {
-            let PokeMan = handLe(value)
-            let mainContainer = document.querySelector(".js-card-container")
-            mainContainer.innerHTML = PokeMan
-            const cardBody = mainContainer.querySelector(".card-body")
-            if (cardBody) {
-                const randomColor = getRandomColor()
-                cardBody.style.backgroundColor = randomColor
+            if(inputMainValue.length !== 0){
+                let PokeMan = handLe(value)
+                let mainContainer = document.querySelector(".js-card-container")
+                mainContainer.innerHTML = PokeMan
+                const cardBody = mainContainer.querySelector(".card-body")
+                if (cardBody) {
+                    const randomColor = getRandomColor()
+                    cardBody.style.backgroundColor = randomColor
+                }
+            }
+            else{
+                alert("Please write your pokemon")
             }
         })
         .catch((error) => {

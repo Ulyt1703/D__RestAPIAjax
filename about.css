@@ -54,3 +54,224 @@ body {
     font-weight: 600;
     font-family: 'Signika Negative';
 }
+
+
+
+
+
+/* ADAPTIVE */
+
+
+
+
+
+@media(max-width: 1330px){
+    .img__title-pokemon{
+        position: absolute;
+        width: 250px;
+        left: 30px;
+        top: 40%;
+        user-select: none;
+    }
+}
+@media(max-width: 1108px){
+    .img__title-pokemon{
+        display: none;
+    }
+}
+@media(max-width: 647px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 24px;
+        padding: 100px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 24px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 552px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 18px;
+        padding: 100px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 11.5px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 18px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 11.5px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 445px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 16px;
+        padding: 150px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 10px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 16px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 10px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 386px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 15px;
+        padding: 150px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 9px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 15px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 9px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 349px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 14px;
+        padding: 150px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 8.5px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 14px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 8.5px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 349px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 14px;
+        padding: 150px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 14px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+        font-family: 'Signika Negative';
+    }
+}
+@media(max-width: 312px){
+    .title__mean-pokemon{
+        text-align: center;
+        font-size: 14px;
+        padding: 150px 0 0 0;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr_-mean-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 7.5px;
+        font-family: 'Signika Negative';
+    }
+    .title__company-pokemon{
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 14px;
+        font-family: 'Signika Negative';
+        user-select: none;
+    }
+    .descr__company-pokemon{
+        text-align: center;
+        font-weight: 600;
+        font-size: 7.5px;
+        font-family: 'Signika Negative';
+    }
+}
